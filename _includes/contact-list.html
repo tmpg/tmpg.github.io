@@ -1,0 +1,38 @@
+<ul class="contact-list">
+  <li><b>Personal</b></li>
+  {% if site.email %}
+    <li>
+      <a href="mailto:{{ site.email }}">
+        <span class="icon icon--email">{% include icon-email.svg %}</span>
+        <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.github_username %}
+    <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
+  {% endif %}
+
+  {% if site.twitter_username %}
+    <li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
+  {% endif %}
+
+  <br/>
+  <li><b>Pickitup inc.</b></li>
+  {% if site.company_email %}
+  <li>
+    <a href="mailto:{{ site.company_email }}">
+      <span class="icon icon--email">{% include icon-email.svg %}</span>
+      <span class="label">{{ site.data.theme.t.company_email | default: 'Company Email' }}</span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.company_gitlab %}
+  <li>
+    <a href="{{ site.company_gitlab }}">
+      <span class="icon icon--gitlab">{% include icon-gitlab.svg %}</span>
+      <span class="label">{{ site.data.theme.t.company_gitlab | default: 'Company Gitlab' }}</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>

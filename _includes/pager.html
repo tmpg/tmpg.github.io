@@ -1,0 +1,25 @@
+<nav class="pager">
+    <div class="break-line"></div>
+    <ul>
+        {% if page.previous %}
+        <li>
+            <a href="{{ page.previous.url | relative_url }}" class="previous">
+                <span class="pager-label">< Previous</span>
+                <span class="pager-title">
+                    {{ page.previous.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if page.next %}
+        <li>
+            <a href="{{ page.next.url | relative_url }}" class="next">
+                <span class="pager-label">Next ></span>
+                <span class="pager-title">
+            {{ page.next.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          </span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>

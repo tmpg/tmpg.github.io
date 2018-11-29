@@ -1,0 +1,212 @@
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+
+.sections {
+  margin-bottom: 2rem;
+}
+
+.section {
+  background-color: $section-bg-color;
+  margin: 0;
+
+  .inner {
+    max-width: 80%;
+    padding: 10vh 5vw;
+
+    @include breakpoint($medium) {
+      max-width: 60%;
+    }
+
+    @include breakpoint($large) {
+      max-width: 50%;
+    }
+  }
+
+  .btn {
+    background-color: $text-color;
+    color: #fff !important;
+
+    &:hover {
+      background-color: mix(#fff, $text-color, 10%);
+    }
+  }
+}
+
+.section-text {
+  /* remove space after last child element */
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  /* text links */
+  a:not(.btn) {
+    border-bottom: 1px dotted currentColor;
+    color: currentColor;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
+
+.section:first-of-type .section-title {
+  @include fluid-type($min-vw, $max-vw, 26px, 72px);
+}
+
+.section-title {
+  @include fluid-type($min-vw, $max-vw, 22px, 60px);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  @include fluid-type($min-vw, $max-vw, 18px, 28px);
+  font-style: italic;
+}
+
+.section-actions {
+  @include list-unstyled;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.section-more {
+  // > p:first-child {
+  //   font-size: 1.125em;
+  //   line-height: 1.625;
+  // }
+
+  @include breakpoint($large) {
+    font-size: 1.125em;
+    line-height: 1.625;
+  }
+}
+
+/*
+   Section specific
+   ========================================================================== */
+
+.section {
+  &--inverse {
+    background-color: $section-dark-bg-color;
+    color: #fff;
+    position: relative;
+
+    .inner {
+      position: relative;
+      z-index: 1; /* fix overlap with scrimgradient */
+    }
+
+    .section-image {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+
+      &::before {
+        @include scrimgradient("to right", $section-dark-bg-color);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-dark-bg-color, 0.75);
+    }
+
+    .btn {
+      background-color: #fff;
+      color: $section-dark-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-dark-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+  &--about {
+    background-color: $section-about-bg-color;
+
+    .section-image {
+      &::before {
+        @include scrimgradient("to right", $section-about-bg-color);
+      }
+    }
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-about-bg-color, 0.75);
+    }
+
+    .btn {
+      color: $section-about-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-about-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+  &--work {
+    background-color: $section-work-bg-color;
+
+    .section-image {
+
+      &::before {
+        @include scrimgradient("to right", $section-work-bg-color);
+      }
+    }
+
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 1px 1px rgba($section-work-bg-color, 0.75);
+    }
+
+    .btn {
+      color: $section-work-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-work-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+  &--articles {
+    background-color: $section-articles-bg-color;
+
+    .section-image {
+
+      &::before {
+        @include scrimgradient("to right", $section-articles-bg-color);
+      }
+    }
+
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 1px 1px rgba($section-articles-bg-color, 0.75);
+    }
+
+    .btn {
+      color: $section-articles-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-articles-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+
+}

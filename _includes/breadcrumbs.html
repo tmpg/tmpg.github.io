@@ -1,0 +1,10 @@
+{% if page.breadcrumbs %}
+{% assign crumb = page.breadcrumbs[0] %}
+<ul class="breadcrumbs">
+    <li>
+        <a href="{{ crumb.url | relative_url }}">
+            < {{ crumb.label }}
+        </a>
+    </li>
+</ul>
+{% endif %}

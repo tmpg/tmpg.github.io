@@ -1,0 +1,209 @@
+{
+  "basics": {
+    "name": "Timothy Pirog",
+    "label": "Leader. Engineer. Designer.",
+    "email": "me@timpirog.com",
+    "summary": "**Innovative Leader** passionate about digital transformation strategies and proven delivery of disruptive solutions throughout the engineering lifecycle in complex enterprise environments.<br/><u>Expertise</u>: business / software process design, big data analytics, customer experience design, system arch., and project / program / supply chain management<br/><br/>**Full-Stack Engineer** with proven record of delivering solutions through all phases of the development lifecycle (SDLC).<br/><u>Expertise</u>: requirements analysis, systems integration, interaction design, web dev., mobile application dev., database dev., devOps [CI & CD] , and healthy skepticism<br/><br/>**Digital Designer** dedicated to creating customer-focused user experience (UX) and user interface (UI) in order to provide a seamless digital experience.<br/><u>Expertise</u>: graphic design, typography, digital standards, rapid prototyping, minimalism, and video production",
+    "location": {
+      "address": "31 W 41ST ST",
+      "postalCode": "NJ 07002",
+      "city": "Bayonne",
+      "countryCode": "US",
+      "region": "New Jersey"
+    }
+  },
+  "work": [
+    {
+      "company": "Pickitup Technologies LLC <i style='font-size: .6em;'> (formally Pickitup inc.)</i>",
+      "position": "Founder & Lead Engineer",
+      "website": "https://compair.pickitup.io",
+      "startDate": "08-01-2015",
+      "endDate": "",
+      "highlights": [
+        "Team lead in architecting, designing, and developing digital solutions for consumer platforms",
+        "Implement microservice architecture utilizing Docker, AWS services, and Jenkins for deployment",
+        "Lead DevOps effort in deploying company services throughout all stages of software development lifecycle",
+        "Evaluate and integrate cloud services (AWS, Azure, GCS) for business alignment",
+        "Deploy and maintain company private infrastructure to ensure maximum productivity (Atlassian, Jenkins, GitLab, Nexus, Slack, etc.)",
+        "Manage and motivate team to ensure efforts are on track, high-quality, and within budget",
+        "Source new revenue streams and client contacts to bring in business",
+        "Manage core company activities ensuring proper direction in legal, finance, technology, and policy"
+      ]
+    },
+    {
+      "company": "J.P. Morgan Chase & Co.",
+      "position": "Infrastructure Engineer (Oracle DevOps DBA / Exadata DBMA)",
+      "website": "https://www.linkedin.com/company/jpmorgan-chase",
+      "startDate": "05-01-2012",
+      "endDate": "08-01-2015",
+      "highlights": [
+        "Created and deployed a Perl-based automation framework, cutting script creation overhead by 50%",
+        "Led team in maintaining infrastructure (tool creation, support rotations, etc.)",
+        "Designed and implemented multiple internal-facing web applications, reducing overhead by 20%",
+        "Deployed, maintained, and supported over 36 Exadata clusters",
+        "Defined and constructed a comprehensive model to evaluate major KPIs of agile ticket-based projects",
+        "Developed and employed critical analytics for Oracle Exadata systems",
+        "Successfully graduated from Technology Development Program (TAP)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Analytics",
+      "keywords": [
+        "Tableau BI",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Automation",
+      "keywords": [
+        "Jenkins",
+        "Puppet"
+      ]
+    },
+    {
+      "name": "Back-end",
+      "keywords": [
+        "Apache Technologies",
+        "Docker",
+        "Django",
+        "Flask",
+        "Kubernetes",
+        "Meteor.js",
+        "Nginx",
+        "Spring"
+      ]
+    },
+    {
+      "name": "Big-data",
+      "keywords": [
+        "Cassandra",
+        "Hadoop"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS [Solutions Architect Assoc. - AWS00505347]"
+      ]
+    },
+    {
+      "name": "Cryptocurrency",
+      "keywords": [
+        "Algorithmic trading",
+        "Blockchain",
+        "Smart contracts",
+        "Solidity"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": [
+        "Exadata [Oracle12c, OEM, ZFS]",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Design",
+      "keywords": [
+        "Adobe CC",
+        "InVision",
+        "Sketch",
+        "Proto.io"
+      ]
+    },
+    {
+      "name": "Front-end",
+      "keywords": [
+        "Angular",
+        "D3.js",
+        "jQuery",
+        "Modern Preprocessors",
+        "React.js"
+      ]
+    },
+    {
+      "name": "General Programming",
+      "keywords": [
+        "Bash",
+        "C#",
+        "Java",
+        "JavaScript",
+        "Perl",
+        "Python",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Caffe",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "keywords": [
+        "Xamarin"
+      ]
+    },    {
+      "name": "Process Management",
+      "keywords": [
+        "BPM",
+        "Camunda",
+        "Comidor",
+        "Visual Paradigm"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "Enzyme & Jest [JS]",
+        "Junit [Java]",
+        "MStest [C#]"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stevens Institute of Technology",
+      "area": "Systems Engineering",
+      "studyType": "Master's Degree",
+      "startDate": "",
+      "endDate": "",
+      "gpa": 2015
+    },
+    {
+      "area": "Software Engineering",
+      "studyType": "Master's Certificate",
+      "startDate": "",
+      "endDate": "",
+      "gpa": 2015
+    },
+    {
+      "area": "Wireless Systems",
+      "studyType": "Master's Certificate",
+      "startDate": "",
+      "endDate": "",
+      "gpa": 2013
+    },
+    {
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "",
+      "endDate": "",
+      "gpa": 2013
+    }
+  ],
+  "awards": [
+    {
+      "title": "Senior Design Award for ECE",
+      "date": "05-01-2013",
+      "awarder": "Stevens Institute of Technology",
+      "summary": "Given to the best senior design project in ECE department."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang: en-US
+title: Tim Pirog
+email: me@timpirog.com
+company_email: tim.pirog@pickitup.io
+company_gitlab: https://gitlab.pickitup.io
+description: "An Engineer Imagines"
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "https://4000.pickitup.io"  # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: Tim Pirog
+github_username: tmpg
+logo: /assets/logo/tp_logo.svg
+search: true
+search_full_content: true
+search_provider: lunr
+#algolia:
+#  application_id: AHGZGZVTK3
+#  index_name: timothy-pirog
+#  search_only_api_key: 11c88b7f112c0f2acf5b53cc5b7862a8
+#  powered_by: # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
+plugins: # previously gems
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-paginate
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+#paginate: 10
+#paginate_path: /page:num/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Front Matter Defaults
+defaults:
+# _posts
+- scope:
+    path: ""
+  values:
+    image: /assets/images/ABOUT_ME_HEADER.jpg
+- scope:
+    path: "_posts"
+    type: posts
+  values:
+    layout: post
+    read_time: true
+    breadcrumbs:
+    - label: "Work Portfolio"
+      url: /work_portfolio/
+    seo:
+      type: "CreativeWork"
