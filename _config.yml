@@ -20,7 +20,7 @@ company_email: tim.pirog@pickitup.io
 company_gitlab: https://gitlab.pickitup.io
 description: "An Engineer Imagines"
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: "https://tmpg.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.timpirog.com"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Tim Pirog
 github_username: tmpg
