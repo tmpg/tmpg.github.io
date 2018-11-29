@@ -77,6 +77,6 @@ defaults:
     read_time: true
     breadcrumbs:
     - label: "Work Portfolio"
-      url: /work_portfolio/
+      url: /work_portfolio.html
     seo:
       type: "CreativeWork"
