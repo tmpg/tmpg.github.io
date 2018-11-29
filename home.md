@@ -11,7 +11,7 @@ section:
      I'm engineering the next generation of innovation. Otherwise, getting lost in Wikipedia, overclocking *whatever* I can find, and writing future non-fiction. 
     actions:
       - label: "See more"
-        url: "/about/"
+        url: "/about.html/"
   - title: "Work Portfolio" 
     class: "section--inverse section--work"
     image: /assets/images/WORK_FRONT.jpg
@@ -19,7 +19,7 @@ section:
       A hand-picked selection of things I've designed and developed.
     actions:
       - label: "See More"
-        url: "/work_portfolio/"
+        url: "/work_portfolio.html/"
   - title: "Curriculum Vitæ"
     class: "section--inverse section--articles"
     image: /assets/images/CV_FRONT.jpg
@@ -27,5 +27,5 @@ section:
       A brief account of my education, qualifications, and previous experiences.
     actions:
       - label: "See more"
-        url: "/cv/"
+        url: "/cv.html/"
 ---
