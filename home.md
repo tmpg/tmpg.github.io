@@ -16,7 +16,7 @@ section:
     class: "section--inverse section--work"
     image: /assets/images/WORK_FRONT.jpg
     introduction: |
-      A hand-picked selection of things I've designed and developed.
+      A selection of things I've designed and developed.
     actions:
       - label: "See More"
         url: "/work_portfolio.html"
@@ -24,7 +24,7 @@ section:
     class: "section--inverse section--articles"
     image: /assets/images/CV_FRONT.jpg
     introduction: |
-      A brief account of my education, qualifications, and previous experiences.
+      A brief account of my education, qualifications, and previous experience.
     actions:
       - label: "See more"
         url: "/cv.html"
