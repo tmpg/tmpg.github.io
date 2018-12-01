@@ -8,7 +8,7 @@ section:
     class: "section--inverse section--about"
     image: /assets/images/ABOUT_SECTION_FRONT.jpg
     introduction: |
-     I'm engineering the next generation of innovation. Otherwise, getting lost in Wikipedia, overclocking *whatever* I can find, and writing future non-fiction. 
+     I'm engineering the next generation of innovation. 
     actions:
       - label: "See more"
         url: "/about.html"

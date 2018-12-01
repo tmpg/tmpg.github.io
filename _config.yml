@@ -21,6 +21,7 @@ company_gitlab: https://gitlab.pickitup.io
 description: "An Engineer Imagines"
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://www.timpirog.com"  # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://4000.pickitup.io"  # Test production build
 author:
   name: Tim Pirog
 github_username: tmpg
