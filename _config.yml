@@ -33,7 +33,8 @@ search_provider: lunr
 #  index_name: timothy-pirog
 #  search_only_api_key: 11c88b7f112c0f2acf5b53cc5b7862a8
 #  powered_by: # true (default), false
-google-analytics-id: "UA-67798024-3"
+google_analytics:
+  id: "UA-67798024-3"
 # Liquid
 liquid:
   error_mode: strict
