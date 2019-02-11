@@ -8,7 +8,7 @@ section:
     class: "section--inverse section--about"
     image: /assets/images/ABOUT_SECTION_FRONT.jpg
     introduction: |
-     I'm engineering the next generation of innovation. 
+      Engineering the next generation of innovation. 
     actions:
       - label: "See more"
         url: "/about.html"
@@ -16,7 +16,7 @@ section:
     class: "section--inverse section--work"
     image: /assets/images/WORK_FRONT.jpg
     introduction: |
-      A selection of things I've designed and developed.
+      A selection of projects I’ve designed and developed.
     actions:
       - label: "See More"
         url: "/work_portfolio.html"

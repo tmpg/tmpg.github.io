@@ -19,7 +19,7 @@ How did he, CIO of a major corporation, achieve success and what should I be doi
 
 At the time, this seemed to be no more than a generic, perfunctory response, similar to what would be said in a company-wide address or a public press conference. I felt I was already doing those things, and there must be some hidden key I was missing.
 
-Young and overzealous, I did not realize that although those principles may be simple, they did not easily withstand the test of time.
+Young and overzealous, I did not realize that although those principles may be simple, they do not easily withstand the test of time.
 
 *Work hard, seize opportunities, do what you love, stay focused.*
 
@@ -32,6 +32,6 @@ From a young age, Tim had an interest in technology with a focus on computer har
 
 Tim’s parents never understood where their children acquired such a fascination with "these gadgets”. For Tim, this meant two things: first, if he wanted something, he was on his own. He had to take initiative and find creative ways to make it work. Second, he needed to develop his long-term planning and resource management skills. Tim would research developing technology in order to make decisive purchases, gaining awareness and broad technical expertise in the process.
 
-As an adult, Tim’s personality mirrors the experiences of his childhood. His is a personality born of necessity and practice in application. He has grown into a man of self-driven ambition, disciplined efficiency, and adaptable foresight. 
+As an adult, Tim’s personality mirrors the experiences of his childhood. His already inquisitive nature was further shaped by the need for creative solutions and independent practice in application. He has grown into a man of self-driven ambition, disciplined efficiency, and adaptable foresight.
 
 Tim Pirog engineers to impact the future.
