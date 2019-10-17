@@ -4,4 +4,4 @@ tmpg.github.io.iml
 Gemfile.lock
 dev-piu.key
 dev-piu-bundle.crt
-
+.gitignore
