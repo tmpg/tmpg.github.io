@@ -9,16 +9,6 @@ image:
 ---
 
 
-<h1 id="introduction">Introduction</h1>
-
-From a young age, Tim had an interest in technology with a focus on computer hardware. Ever the industrious youth, he pieced together his first computer from reclaimed parts off neighborhood streets. His sights were set on a new computer game, so his rig would need to meet minimum requirements. With research, he identified the necessary components for his project. Sure enough, it wasn’t long until his makeshift computer was operational.
-
-Tim’s parents never understood where their children acquired such a fascination with "these gadgets”. For Tim, this meant two things: first, if he wanted something, he was on his own. He had to take initiative and find creative ways to make it work. Second, he needed to develop his long-term planning and resource management skills. Tim would research developing technology in order to make decisive purchases, gaining awareness and broad technical expertise in the process.
-
-As an adult, Tim’s personality mirrors the experiences of his childhood. His already inquisitive nature was further shaped by the need for creative solutions and independent practice in application. He has grown into a man of self-driven ambition, disciplined efficiency, and adaptable foresight.
-
-Tim Pirog engineers to impact the future.
-
 <h1 id="meet-tim-pirog">Meet <a href="mailto:me@timpirog.com" target="_blank">Tim Pirog</a></h1>
 
 My former self, undergraduate Tim, was invited to meet the multinational conglomerate CIO over lunch. This was a rare opportunity for an intern such as myself, and I was eager to gain his personal perspective.
