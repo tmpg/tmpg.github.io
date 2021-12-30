@@ -6,10 +6,11 @@
   {% include head.html %}
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
+  <div>
 
     {% include skip-links.html %}
-
     <div class="sidebar-toggle-wrapper">
+      {% if site.underConstruction == false %}
       {% if site.search %}
         <button class="search-toggle" type="button">
           <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
@@ -18,13 +19,16 @@
           </svg>
         </button>
       {% endif %}
+      {% endif %}
 
+      {% if site.underConstruction == false %}
       <button class="toggle navicon-button larr" type="button">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
           <span class="navicon"></span>
         </span>
       </button>
+      {% endif %}
     </div>
 
     <div id="sidebar" class="sidebar">
@@ -37,16 +41,40 @@
     <div class="canvas">
       <div class="wrapper">
         {% include masthead.html %}
+        {% if site.underConstruction == false %}
         <div class="initial-content">
           {{ content }}
         </div>
+        {% elsif site.underConstruction == true  %}
+        <div class="initial-content" style="width: 100vw; height: 100vh; background-color: #374754; display: table-cell; vertical-align: middle;">
+          <div class="container" style="">
+            <h4 class="section-heading text-center" style="color: #fff;">UNDER CONSTRUCTION</h4>
+            <hr class="connect" style="visibility: visible; color: #fff">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p style="color: #fff;">Significant changes are in the pipeline!</p>
+                <p style="color: #fff;">If you'd like to connect:</p>
+                <br/>
+                <ul class="list-inline social-links">
+                  <li style="visibility: visible; font-size: 30px;"><a href="https://www.linkedin.com/in/tim-pirog-625b3926"><i style="visibility: visible; font-size: 1.3em;" class="fa fa-linkedin"></i></a>
+                  </li>
+                  <span style="padding: .25em"></span>
+                  <li style="visibility: visible; font-size: 30px;"><a href="mailto:tim.pirog@gmail.com" target="_blank"><i style="visibility: visible; font-size: 1.3em;" class="fa fa-envelope-o"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
+        </div>
+        {% endif %}
         <div class="search-content">
           {% include search-form.html %}
         </div>
       </div>
     </div>
 
+  </div>
     {% include scripts.html %}
 
   </body>
